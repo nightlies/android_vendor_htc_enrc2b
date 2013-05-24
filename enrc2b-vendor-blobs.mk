@@ -178,7 +178,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/lib/libbt-aptx-4.1.1.so:system/lib/libbt-aptx-4.1.1.so \
   vendor/htc/enrc2b/proprietary/lib/libcall_volume.so:system/lib/libcall_volume.so \
   vendor/htc/enrc2b/proprietary/lib/libcameraasd.so:system/lib/libcameraasd.so \
-  vendor/htc/enrc2b/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
   vendor/htc/enrc2b/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/enrc2b/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/enrc2b/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
@@ -198,7 +197,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/lib/libhtcsunny2engine.so:system/lib/libhtcsunny2engine.so \
   vendor/htc/enrc2b/proprietary/lib/libhtcsunnyengine.so:system/lib/libhtcsunnyengine.so \
   vendor/htc/enrc2b/proprietary/lib/libhtcsurfaces.so:system/lib/libhtcsurfaces.so \
-  vendor/htc/enrc2b/proprietary/lib/liblog.so:system/lib/liblog.so \
   vendor/htc/enrc2b/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/enrc2b/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/enrc2b/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
@@ -271,7 +269,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/lib/libscaladoutil.so:system/lib/libscaladoutil.so \
   vendor/htc/enrc2b/proprietary/lib/libsensors_mpl.so:system/lib/libsensors_mpl.so \
   vendor/htc/enrc2b/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-  vendor/htc/enrc2b/proprietary/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
   vendor/htc/enrc2b/proprietary/lib/libsystem_server.so:system/lib/libsystem_server.so \
   vendor/htc/enrc2b/proprietary/lib/libz.so:system/lib/libz.so \
   vendor/htc/enrc2b/proprietary/usr/icu/icudt48l.dat:system/usr/icu/icudt48l.dat \
