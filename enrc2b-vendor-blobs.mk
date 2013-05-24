@@ -40,7 +40,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/bin/htcfs:system/bin/htcfs \
   vendor/htc/enrc2b/proprietary/bin/IMCdownload:system/bin/IMCdownload \
   vendor/htc/enrc2b/proprietary/bin/InjectionTool:system/bin/InjectionTool \
-  vendor/htc/enrc2b/proprietary/bin/logcat2:system/bin/logcat2 \
   vendor/htc/enrc2b/proprietary/bin/make_sec_bin:system/bin/make_sec_bin \
   vendor/htc/enrc2b/proprietary/bin/mknod:system/bin/mknod \
   vendor/htc/enrc2b/proprietary/bin/mtpd:system/bin/mtpd \
@@ -51,7 +50,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/bin/poweron_modem_fls.sh:system/bin/poweron_modem_fls.sh \
   vendor/htc/enrc2b/proprietary/bin/poweron_modem_hboot.sh:system/bin/poweron_modem_hboot.sh \
   vendor/htc/enrc2b/proprietary/bin/rild:system/bin/rild \
-  vendor/htc/enrc2b/proprietary/bin/sdcard:system/bin/sdcard \
   vendor/htc/enrc2b/proprietary/bin/tf_daemon:system/bin/tf_daemon \
   vendor/htc/enrc2b/proprietary/etc/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
   vendor/htc/enrc2b/proprietary/etc/firmware/bcm4330.hcd:system/etc/firmware/bcm4330.hcd \
@@ -67,81 +65,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/etc/Flash_Loader.conf:system/etc/Flash_Loader.conf \
   vendor/htc/enrc2b/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
   vendor/htc/enrc2b/proprietary/etc/QUO_6260.fls.clean:system/etc/QUO_6260.fls.clean \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/board_version.txt:system/etc/soundimage/board_version.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/CodecDSPID.txt:system/etc/soundimage/CodecDSPID.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/CodecDSPID_XA.txt:system/etc/soundimage/CodecDSPID_XA.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_BT_CarMode.txt:system/etc/soundimage/Sound_BT_CarMode.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_FM_HP.txt:system/etc/soundimage/Sound_FM_HP.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_FM_HP_XA.txt:system/etc/soundimage/Sound_FM_HP_XA.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_FM_SPK.txt:system/etc/soundimage/Sound_FM_SPK.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_FM_SPK_XA.txt:system/etc/soundimage/Sound_FM_SPK_XA.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Note_Recording.txt:system/etc/soundimage/Sound_Note_Recording.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Original_DOCK.txt:system/etc/soundimage/Sound_Original_DOCK.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Original_HP.txt:system/etc/soundimage/Sound_Original_HP.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Original_HP_XA.txt:system/etc/soundimage/Sound_Original_HP_XA.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Original_Recording.txt:system/etc/soundimage/Sound_Original_Recording.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Original_SPK_RING.txt:system/etc/soundimage/Sound_Original_SPK_RING.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Original_SPK_RING_XA.txt:system/etc/soundimage/Sound_Original_SPK_RING_XA.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Original_SPK.txt:system/etc/soundimage/Sound_Original_SPK.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Original_SPK_XA.txt:system/etc/soundimage/Sound_Original_SPK_XA.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Original.txt:system/etc/soundimage/Sound_Original.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Phone_Original_BT.txt:system/etc/soundimage/Sound_Phone_Original_BT.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Phone_Original_DOCK.txt:system/etc/soundimage/Sound_Phone_Original_DOCK.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Phone_Original_HAC.txt:system/etc/soundimage/Sound_Phone_Original_HAC.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Phone_Original_HP.txt:system/etc/soundimage/Sound_Phone_Original_HP.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Phone_Original_REC.txt:system/etc/soundimage/Sound_Phone_Original_REC.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Phone_Original_SPK.txt:system/etc/soundimage/Sound_Phone_Original_SPK.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Phone_Original_SPK_XA.txt:system/etc/soundimage/Sound_Phone_Original_SPK_XA.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Phone_Original_TTY.txt:system/etc/soundimage/Sound_Phone_Original_TTY.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Rec_Landscape.txt:system/etc/soundimage/Sound_Rec_Landscape.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Rec_Portrait.txt:system/etc/soundimage/Sound_Rec_Portrait.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_SpeakerVR_Recording.txt:system/etc/soundimage/Sound_SpeakerVR_Recording.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Voice_Recording_AMR.txt:system/etc/soundimage/Sound_Voice_Recording_AMR.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Voip_Original_BT_AEC.txt:system/etc/soundimage/Sound_Voip_Original_BT_AEC.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Voip_Original_BT.txt:system/etc/soundimage/Sound_Voip_Original_BT.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Voip_Original_HP_AEC.txt:system/etc/soundimage/Sound_Voip_Original_HP_AEC.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Voip_Original_HP.txt:system/etc/soundimage/Sound_Voip_Original_HP.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Voip_Original_REC_AEC.txt:system/etc/soundimage/Sound_Voip_Original_REC_AEC.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Voip_Original_REC.txt:system/etc/soundimage/Sound_Voip_Original_REC.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Voip_Original_SPK_AEC.txt:system/etc/soundimage/Sound_Voip_Original_SPK_AEC.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Voip_Original_SPK_AEC_XA.txt:system/etc/soundimage/Sound_Voip_Original_SPK_AEC_XA.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Voip_Original_SPK.txt:system/etc/soundimage/Sound_Voip_Original_SPK.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/Sound_Voip_Original_SPK_XA.txt:system/etc/soundimage/Sound_Voip_Original_SPK_XA.txt \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/srsfx_trumedia_51.cfg:system/etc/soundimage/srsfx_trumedia_51.cfg \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/srsfx_trumedia_movie.cfg:system/etc/soundimage/srsfx_trumedia_movie.cfg \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/srsfx_trumedia_music.cfg:system/etc/soundimage/srsfx_trumedia_music.cfg \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/srsfx_trumedia_voice.cfg:system/etc/soundimage/srsfx_trumedia_voice.cfg \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/srs_geq10.cfg:system/etc/soundimage/srs_geq10.cfg \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/srs_global.cfg:system/etc/soundimage/srs_global.cfg \
-  vendor/htc/enrc2b/proprietary/etc/tfa/fm.config:system/etc/tfa/fm.config \
-  vendor/htc/enrc2b/proprietary/etc/tfa/fm.eq:system/etc/tfa/fm.eq \
-  vendor/htc/enrc2b/proprietary/etc/tfa/fm.preset:system/etc/tfa/fm.preset \
-  vendor/htc/enrc2b/proprietary/etc/tfa/fm.speaker:system/etc/tfa/fm.speaker \
-  vendor/htc/enrc2b/proprietary/etc/tfa/playback.config:system/etc/tfa/playback.config \
-  vendor/htc/enrc2b/proprietary/etc/tfa/playback.eq:system/etc/tfa/playback.eq \
-  vendor/htc/enrc2b/proprietary/etc/tfa/playback.preset:system/etc/tfa/playback.preset \
-  vendor/htc/enrc2b/proprietary/etc/tfa/playback.speaker:system/etc/tfa/playback.speaker \
-  vendor/htc/enrc2b/proprietary/etc/tfa/recorder.config:system/etc/tfa/recorder.config \
-  vendor/htc/enrc2b/proprietary/etc/tfa/recorder.eq:system/etc/tfa/recorder.eq \
-  vendor/htc/enrc2b/proprietary/etc/tfa/recorder.preset:system/etc/tfa/recorder.preset \
-  vendor/htc/enrc2b/proprietary/etc/tfa/recorder.speaker:system/etc/tfa/recorder.speaker \
-  vendor/htc/enrc2b/proprietary/etc/tfa/ReleaseNote.txt:system/etc/tfa/ReleaseNote.txt \
-  vendor/htc/enrc2b/proprietary/etc/tfa/ring.config:system/etc/tfa/ring.config \
-  vendor/htc/enrc2b/proprietary/etc/tfa/ring.eq:system/etc/tfa/ring.eq \
-  vendor/htc/enrc2b/proprietary/etc/tfa/ring.preset:system/etc/tfa/ring.preset \
-  vendor/htc/enrc2b/proprietary/etc/tfa/ring.speaker:system/etc/tfa/ring.speaker \
-  vendor/htc/enrc2b/proprietary/etc/tfa/tcoef.speaker:system/etc/tfa/tcoef.speaker \
-  vendor/htc/enrc2b/proprietary/etc/tfa/tfa9887.config:system/etc/tfa/tfa9887.config \
-  vendor/htc/enrc2b/proprietary/etc/tfa/tfa9887.patch:system/etc/tfa/tfa9887.patch \
-  vendor/htc/enrc2b/proprietary/etc/tfa/tfa9887.speaker:system/etc/tfa/tfa9887.speaker \
-  vendor/htc/enrc2b/proprietary/etc/tfa/video.config:system/etc/tfa/video.config \
-  vendor/htc/enrc2b/proprietary/etc/tfa/video.eq:system/etc/tfa/video.eq \
-  vendor/htc/enrc2b/proprietary/etc/tfa/video.preset:system/etc/tfa/video.preset \
-  vendor/htc/enrc2b/proprietary/etc/tfa/video.speaker:system/etc/tfa/video.speaker \
-  vendor/htc/enrc2b/proprietary/etc/tfa/voice.config:system/etc/tfa/voice.config \
-  vendor/htc/enrc2b/proprietary/etc/tfa/voice.eq:system/etc/tfa/voice.eq \
-  vendor/htc/enrc2b/proprietary/etc/tfa/voice.preset:system/etc/tfa/voice.preset \
-  vendor/htc/enrc2b/proprietary/etc/tfa/voice.speaker:system/etc/tfa/voice.speaker \
   vendor/htc/enrc2b/proprietary/etc/uilock.yuv:system/etc/uilock.yuv \
   vendor/htc/enrc2b/proprietary/etc/voicemail-conf.xml:system/etc/voicemail-conf.xml \
   vendor/htc/enrc2b/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
@@ -155,32 +78,22 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/lib/egl/libGLESv2_perfhud.so:system/lib/egl/libGLESv2_perfhud.so \
   vendor/htc/enrc2b/proprietary/lib/egl/libGLESv2_tegra_impl.so:system/lib/egl/libGLESv2_tegra_impl.so \
   vendor/htc/enrc2b/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
-  vendor/htc/enrc2b/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
-  vendor/htc/enrc2b/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
-  vendor/htc/enrc2b/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
-  vendor/htc/enrc2b/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
-  vendor/htc/enrc2b/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
-  vendor/htc/enrc2b/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
   vendor/htc/enrc2b/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
   vendor/htc/enrc2b/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
   vendor/htc/enrc2b/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
   vendor/htc/enrc2b/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
   vendor/htc/enrc2b/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
-  vendor/htc/enrc2b/proprietary/lib/hw/lights.tegra.so:system/lib/hw/lights.tegra.so \
   vendor/htc/enrc2b/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
   vendor/htc/enrc2b/proprietary/lib/hw/nfc.enrc2b.so:system/lib/hw/nfc.enrc2b.so \
-  vendor/htc/enrc2b/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
   vendor/htc/enrc2b/proprietary/lib/hw/sensors.enrc2b.so:system/lib/hw/sensors.enrc2b.so \
-  vendor/htc/enrc2b/proprietary/lib/libaddrsdetection.so:system/lib/libaddrsdetection.so \
+  vendor/htc/enrc2b/proprietary/lib/hw/vendor-camera.tegra.so:system/lib/hw/vendor-camera.tegra.so \
   vendor/htc/enrc2b/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
-  vendor/htc/enrc2b/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
   vendor/htc/enrc2b/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
   vendor/htc/enrc2b/proprietary/lib/libbt-aptx-4.1.1.so:system/lib/libbt-aptx-4.1.1.so \
   vendor/htc/enrc2b/proprietary/lib/libcall_volume.so:system/lib/libcall_volume.so \
   vendor/htc/enrc2b/proprietary/lib/libcameraasd.so:system/lib/libcameraasd.so \
   vendor/htc/enrc2b/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/enrc2b/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
-  vendor/htc/enrc2b/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
   vendor/htc/enrc2b/proprietary/lib/libcapsjava.so:system/lib/libcapsjava.so \
   vendor/htc/enrc2b/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
   vendor/htc/enrc2b/proprietary/lib/libdumppcm.so:system/lib/libdumppcm.so \
@@ -268,99 +181,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/lib/libscalado.so:system/lib/libscalado.so \
   vendor/htc/enrc2b/proprietary/lib/libscaladoutil.so:system/lib/libscaladoutil.so \
   vendor/htc/enrc2b/proprietary/lib/libsensors_mpl.so:system/lib/libsensors_mpl.so \
-  vendor/htc/enrc2b/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
   vendor/htc/enrc2b/proprietary/lib/libsystem_server.so:system/lib/libsystem_server.so \
-  vendor/htc/enrc2b/proprietary/lib/libz.so:system/lib/libz.so \
-  vendor/htc/enrc2b/proprietary/usr/icu/icudt48l.dat:system/usr/icu/icudt48l.dat \
-  vendor/htc/enrc2b/proprietary/usr/idc/atmel-maxtouch.idc:system/usr/idc/atmel-maxtouch.idc \
-  vendor/htc/enrc2b/proprietary/usr/idc/projector_input.idc:system/usr/idc/projector_input.idc \
-  vendor/htc/enrc2b/proprietary/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
-  vendor/htc/enrc2b/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
-  vendor/htc/enrc2b/proprietary/usr/idc/synaptics-rmi-touchscreen.idc:system/usr/idc/synaptics-rmi-touchscreen.idc \
-  vendor/htc/enrc2b/proprietary/usr/idc/tv-touchscreen.idc:system/usr/idc/tv-touchscreen.idc \
-  vendor/htc/enrc2b/proprietary/usr/keychars/Generic.kcm:system/usr/keychars/Generic.kcm \
-  vendor/htc/enrc2b/proprietary/usr/keychars/qwerty2.kcm:system/usr/keychars/qwerty2.kcm \
-  vendor/htc/enrc2b/proprietary/usr/keychars/qwerty.kcm:system/usr/keychars/qwerty.kcm \
-  vendor/htc/enrc2b/proprietary/usr/keychars/Virtual.kcm:system/usr/keychars/Virtual.kcm \
-  vendor/htc/enrc2b/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
-  vendor/htc/enrc2b/proprietary/usr/keylayout/Generic.kl:system/usr/keylayout/Generic.kl \
-  vendor/htc/enrc2b/proprietary/usr/keylayout/projector-Keypad.kl:system/usr/keylayout/projector-Keypad.kl \
-  vendor/htc/enrc2b/proprietary/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
-  vendor/htc/enrc2b/proprietary/usr/keylayout/tegra-kbc.kl:system/usr/keylayout/tegra-kbc.kl \
-  vendor/htc/enrc2b/proprietary/usr/keylayout/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_028e.kl \
-  vendor/htc/enrc2b/proprietary/usr/keylayout/Vendor_046d_Product_c216.kl:system/usr/keylayout/Vendor_046d_Product_c216.kl \
-  vendor/htc/enrc2b/proprietary/usr/keylayout/Vendor_046d_Product_c294.kl:system/usr/keylayout/Vendor_046d_Product_c294.kl \
-  vendor/htc/enrc2b/proprietary/usr/keylayout/Vendor_046d_Product_c299.kl:system/usr/keylayout/Vendor_046d_Product_c299.kl \
-  vendor/htc/enrc2b/proprietary/usr/keylayout/Vendor_046d_Product_c532.kl:system/usr/keylayout/Vendor_046d_Product_c532.kl \
-  vendor/htc/enrc2b/proprietary/usr/keylayout/Vendor_054c_Product_0268.kl:system/usr/keylayout/Vendor_054c_Product_0268.kl \
-  vendor/htc/enrc2b/proprietary/usr/keylayout/Vendor_05ac_Product_0239.kl:system/usr/keylayout/Vendor_05ac_Product_0239.kl \
-  vendor/htc/enrc2b/proprietary/usr/keylayout/Vendor_22b8_Product_093d.kl:system/usr/keylayout/Vendor_22b8_Product_093d.kl \
-  vendor/htc/enrc2b/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
-  vendor/htc/enrc2b/proprietary/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
-  vendor/htc/enrc2b/proprietary/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
-  vendor/htc/enrc2b/proprietary/usr/share/alsa/pcm/default.conf:system/usr/share/alsa/pcm/default.conf \
-  vendor/htc/enrc2b/proprietary/usr/share/alsa/pcm/dmix.conf:system/usr/share/alsa/pcm/dmix.conf \
-  vendor/htc/enrc2b/proprietary/usr/share/alsa/pcm/dpl.conf:system/usr/share/alsa/pcm/dpl.conf \
-  vendor/htc/enrc2b/proprietary/usr/share/alsa/pcm/dsnoop.conf:system/usr/share/alsa/pcm/dsnoop.conf \
-  vendor/htc/enrc2b/proprietary/usr/share/alsa/pcm/front.conf:system/usr/share/alsa/pcm/front.conf \
-  vendor/htc/enrc2b/proprietary/usr/share/alsa/pcm/iec958.conf:system/usr/share/alsa/pcm/iec958.conf \
-  vendor/htc/enrc2b/proprietary/usr/share/alsa/pcm/modem.conf:system/usr/share/alsa/pcm/modem.conf \
-  vendor/htc/enrc2b/proprietary/usr/share/alsa/pcm/rear.conf:system/usr/share/alsa/pcm/rear.conf \
-  vendor/htc/enrc2b/proprietary/usr/share/alsa/pcm/side.conf:system/usr/share/alsa/pcm/side.conf \
-  vendor/htc/enrc2b/proprietary/usr/share/alsa/pcm/surround40.conf:system/usr/share/alsa/pcm/surround40.conf \
-  vendor/htc/enrc2b/proprietary/usr/share/alsa/pcm/surround41.conf:system/usr/share/alsa/pcm/surround41.conf \
-  vendor/htc/enrc2b/proprietary/usr/share/alsa/pcm/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
-  vendor/htc/enrc2b/proprietary/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
-  vendor/htc/enrc2b/proprietary/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf \
-  vendor/htc/enrc2b/proprietary/usr/share/bmd/RFFspeed_501.bmd:system/usr/share/bmd/RFFspeed_501.bmd \
-  vendor/htc/enrc2b/proprietary/usr/share/bmd/RFFstd_501.bmd:system/usr/share/bmd/RFFstd_501.bmd \
-  vendor/htc/enrc2b/proprietary/usr/share/zoneinfo/zoneinfo.dat:system/usr/share/zoneinfo/zoneinfo.dat \
-  vendor/htc/enrc2b/proprietary/usr/share/zoneinfo/zoneinfo.idx:system/usr/share/zoneinfo/zoneinfo.idx \
-  vendor/htc/enrc2b/proprietary/usr/share/zoneinfo/zoneinfo.version:system/usr/share/zoneinfo/zoneinfo.version \
-  vendor/htc/enrc2b/proprietary/usr/srec/config/en.us/baseline11k.par:system/usr/srec/config/en.us/baseline11k.par \
-  vendor/htc/enrc2b/proprietary/usr/srec/config/en.us/baseline8k.par:system/usr/srec/config/en.us/baseline8k.par \
-  vendor/htc/enrc2b/proprietary/usr/srec/config/en.us/baseline.par:system/usr/srec/config/en.us/baseline.par \
-  vendor/htc/enrc2b/proprietary/usr/srec/config/en.us/dictionary/basic.ok:system/usr/srec/config/en.us/dictionary/basic.ok \
-  vendor/htc/enrc2b/proprietary/usr/srec/config/en.us/dictionary/cmu6plus.ok.zip:system/usr/srec/config/en.us/dictionary/cmu6plus.ok.zip \
-  vendor/htc/enrc2b/proprietary/usr/srec/config/en.us/dictionary/enroll.ok:system/usr/srec/config/en.us/dictionary/enroll.ok \
-  vendor/htc/enrc2b/proprietary/usr/srec/config/en.us/g2p/en-US-ttp.data:system/usr/srec/config/en.us/g2p/en-US-ttp.data \
-  vendor/htc/enrc2b/proprietary/usr/srec/config/en.us/grammars/boolean.g2g:system/usr/srec/config/en.us/grammars/boolean.g2g \
-  vendor/htc/enrc2b/proprietary/usr/srec/config/en.us/grammars/phone_type_choice.g2g:system/usr/srec/config/en.us/grammars/phone_type_choice.g2g \
-  vendor/htc/enrc2b/proprietary/usr/srec/config/en.us/grammars/VoiceDialer.g2g:system/usr/srec/config/en.us/grammars/VoiceDialer.g2g \
-  vendor/htc/enrc2b/proprietary/usr/srec/config/en.us/models/generic11_f.swimdl:system/usr/srec/config/en.us/models/generic11_f.swimdl \
-  vendor/htc/enrc2b/proprietary/usr/srec/config/en.us/models/generic11.lda:system/usr/srec/config/en.us/models/generic11.lda \
-  vendor/htc/enrc2b/proprietary/usr/srec/config/en.us/models/generic11_m.swimdl:system/usr/srec/config/en.us/models/generic11_m.swimdl \
-  vendor/htc/enrc2b/proprietary/usr/srec/config/en.us/models/generic8_f.swimdl:system/usr/srec/config/en.us/models/generic8_f.swimdl \
-  vendor/htc/enrc2b/proprietary/usr/srec/config/en.us/models/generic8.lda:system/usr/srec/config/en.us/models/generic8.lda \
-  vendor/htc/enrc2b/proprietary/usr/srec/config/en.us/models/generic8_m.swimdl:system/usr/srec/config/en.us/models/generic8_m.swimdl \
-  vendor/htc/enrc2b/proprietary/usr/srec/config/en.us/models/generic.swiarb:system/usr/srec/config/en.us/models/generic.swiarb \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/acoustic_model:system/usr/srec/en-US/acoustic_model \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/c_fst:system/usr/srec/en-US/c_fst \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/clg:system/usr/srec/en-US/clg \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/compile_grammar.config:system/usr/srec/en-US/compile_grammar.config \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/contacts.abnf:system/usr/srec/en-US/contacts.abnf \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/dict:system/usr/srec/en-US/dict \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/dictation.config:system/usr/srec/en-US/dictation.config \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/embed_phone_nn_model:system/usr/srec/en-US/embed_phone_nn_model \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/embed_phone_nn_state_sym:system/usr/srec/en-US/embed_phone_nn_state_sym \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/endpointer_dictation.config:system/usr/srec/en-US/endpointer_dictation.config \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/endpointer_voicesearch.config:system/usr/srec/en-US/endpointer_voicesearch.config \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/ep_acoustic_model:system/usr/srec/en-US/ep_acoustic_model \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/g2p_fst:system/usr/srec/en-US/g2p_fst \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/google_hotword_clg:system/usr/srec/en-US/google_hotword_clg \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/google_hotword.config:system/usr/srec/en-US/google_hotword.config \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/google_hotword_logistic:system/usr/srec/en-US/google_hotword_logistic \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/grammar.config:system/usr/srec/en-US/grammar.config \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/hmmsyms:system/usr/srec/en-US/hmmsyms \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/hotword_symbols:system/usr/srec/en-US/hotword_symbols \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/lintrans_model:system/usr/srec/en-US/lintrans_model \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/metadata:system/usr/srec/en-US/metadata \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/normalizer:system/usr/srec/en-US/normalizer \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/norm_fst:system/usr/srec/en-US/norm_fst \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/offensive_word_normalizer:system/usr/srec/en-US/offensive_word_normalizer \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/phonelist:system/usr/srec/en-US/phonelist \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/rescoring_lm:system/usr/srec/en-US/rescoring_lm \
-  vendor/htc/enrc2b/proprietary/usr/srec/en-US/symbols:system/usr/srec/en-US/symbols \
   vendor/htc/enrc2b/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
   vendor/htc/enrc2b/proprietary/vendor/firmware/mfg.bin:system/vendor/firmware/mfg.bin \
   vendor/htc/enrc2b/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
