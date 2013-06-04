@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/bin/agpsd:system/bin/agpsd \
   vendor/htc/enrc2b/proprietary/bin/atpipe_plain:system/bin/atpipe_plain \
   vendor/htc/enrc2b/proprietary/bin/cand:system/bin/cand \
-  vendor/htc/enrc2b/proprietary/bin/charging:system/bin/charging \
   vendor/htc/enrc2b/proprietary/bin/DxDrmServerIpc:system/bin/DxDrmServerIpc \
   vendor/htc/enrc2b/proprietary/bin/fild:system/bin/fild \
   vendor/htc/enrc2b/proprietary/bin/getnvm.sh:system/bin/getnvm.sh \
@@ -51,9 +50,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/bin/poweron_modem_hboot.sh:system/bin/poweron_modem_hboot.sh \
   vendor/htc/enrc2b/proprietary/bin/rild:system/bin/rild \
   vendor/htc/enrc2b/proprietary/bin/tf_daemon:system/bin/tf_daemon \
-  vendor/htc/enrc2b/proprietary/etc/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
-  vendor/htc/enrc2b/proprietary/etc/firmware/bcm4330.hcd:system/etc/firmware/bcm4330.hcd \
-  vendor/htc/enrc2b/proprietary/etc/firmware/BCM4334B0_002.001.013.0767.0777.hcd:system/etc/firmware/BCM4334B0_002.001.013.0767.0777.hcd \
   vendor/htc/enrc2b/proprietary/etc/firmware/fw_bcm4334_apsta.bin:system/etc/firmware/fw_bcm4334_apsta.bin \
   vendor/htc/enrc2b/proprietary/etc/firmware/fw_bcm4334.bin:system/etc/firmware/fw_bcm4334.bin \
   vendor/htc/enrc2b/proprietary/etc/firmware/fw_bcm4334_p2p.bin:system/etc/firmware/fw_bcm4334_p2p.bin \
@@ -86,7 +82,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
   vendor/htc/enrc2b/proprietary/lib/hw/nfc.enrc2b.so:system/lib/hw/nfc.enrc2b.so \
   vendor/htc/enrc2b/proprietary/lib/hw/sensors.enrc2b.so:system/lib/hw/sensors.enrc2b.so \
-  vendor/htc/enrc2b/proprietary/lib/hw/vendor-camera.tegra.so:system/lib/hw/vendor-camera.tegra.so \
   vendor/htc/enrc2b/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
   vendor/htc/enrc2b/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
   vendor/htc/enrc2b/proprietary/lib/libbt-aptx-4.1.1.so:system/lib/libbt-aptx-4.1.1.so \
@@ -101,7 +96,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/lib/libGLES_trace.so:system/lib/libGLES_trace.so \
   vendor/htc/enrc2b/proprietary/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
   vendor/htc/enrc2b/proprietary/lib/libGLESv2.so:system/lib/libGLESv2.so \
-  vendor/htc/enrc2b/proprietary/lib/libglib.so:system/lib/libglib.so \
   vendor/htc/enrc2b/proprietary/lib/libhtccamera.so:system/lib/libhtccamera.so \
   vendor/htc/enrc2b/proprietary/lib/libhtc_dis.so:system/lib/libhtc_dis.so \
   vendor/htc/enrc2b/proprietary/lib/libhtc-opt2.so:system/lib/libhtc-opt2.so \
@@ -183,11 +177,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/lib/libsensors_mpl.so:system/lib/libsensors_mpl.so \
   vendor/htc/enrc2b/proprietary/lib/libsystem_server.so:system/lib/libsystem_server.so \
   vendor/htc/enrc2b/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
-  vendor/htc/enrc2b/proprietary/vendor/firmware/mfg.bin:system/vendor/firmware/mfg.bin \
-  vendor/htc/enrc2b/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-  vendor/htc/enrc2b/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-  vendor/htc/enrc2b/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-  vendor/htc/enrc2b/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
   vendor/htc/enrc2b/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin \
   vendor/htc/enrc2b/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin \
   vendor/htc/enrc2b/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2/full_model.bin \
