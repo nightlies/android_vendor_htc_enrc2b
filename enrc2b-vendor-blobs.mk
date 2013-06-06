@@ -82,6 +82,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
   vendor/htc/enrc2b/proprietary/lib/hw/nfc.enrc2b.so:system/lib/hw/nfc.enrc2b.so \
   vendor/htc/enrc2b/proprietary/lib/hw/sensors.enrc2b.so:system/lib/hw/sensors.enrc2b.so \
+  vendor/htc/enrc2b/proprietary/lib/hw/vendor-camera.tegra.so:system/lib/hw/vendor-camera.tegra.so \
   vendor/htc/enrc2b/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
   vendor/htc/enrc2b/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
   vendor/htc/enrc2b/proprietary/lib/libbt-aptx-4.1.1.so:system/lib/libbt-aptx-4.1.1.so \
