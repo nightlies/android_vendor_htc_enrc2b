@@ -74,6 +74,10 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/lib/egl/libGLESv2_perfhud.so:system/lib/egl/libGLESv2_perfhud.so \
   vendor/htc/enrc2b/proprietary/lib/egl/libGLESv2_tegra_impl.so:system/lib/egl/libGLESv2_tegra_impl.so \
   vendor/htc/enrc2b/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
+  vendor/htc/enrc2b/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
+  vendor/htc/enrc2b/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
+  vendor/htc/enrc2b/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
+  vendor/htc/enrc2b/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
   vendor/htc/enrc2b/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
   vendor/htc/enrc2b/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
   vendor/htc/enrc2b/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
