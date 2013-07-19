@@ -64,6 +64,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/etc/QUO_6260.fls.clean:system/etc/QUO_6260.fls.clean \
   vendor/htc/enrc2b/proprietary/etc/uilock.yuv:system/etc/uilock.yuv \
   vendor/htc/enrc2b/proprietary/etc/voicemail-conf.xml:system/etc/voicemail-conf.xml \
+  vendor/htc/enrc2b/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
   vendor/htc/enrc2b/proprietary/lib/egl/libEGL_perfhud.so:system/lib/egl/libEGL_perfhud.so \
   vendor/htc/enrc2b/proprietary/lib/egl/libEGL_tegra_impl.so:system/lib/egl/libEGL_tegra_impl.so \
   vendor/htc/enrc2b/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
